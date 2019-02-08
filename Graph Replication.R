@@ -4,4 +4,3 @@ View(waterstats.agg)
 ggplot(waterstats.agg, aes(x=status, y=avgdailypercent, fill=status)) + 
   xlab("Reproductive Status") + ylab("Percent Body Weight Lost Daily") +  
   geom_bar(stat= "identity")
-
